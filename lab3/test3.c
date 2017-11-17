@@ -256,7 +256,7 @@ int escrever_comando(unsigned char cmd)
 			return 1;
 		if (resposta == ACK)
 		{
-			escrever_kbc(cmd); //Enviar o byte correspondente ao led pretendido
+			escrever_kbc(cmd); //Enviar o byte correspondente ao led pretendido 
 
 			return 0;
 		}
